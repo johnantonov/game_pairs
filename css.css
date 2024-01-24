@@ -16,8 +16,8 @@ p {
   perspective: 1000px;
 }
 .card {
-  width: 10%;
-  margin: 50px;
+  width: 120px;
+  margin: 20px;
   height: 100%;
   position: relative;
   transition: transform 1s;
@@ -64,4 +64,15 @@ select {
   background-color: beige;
   font-size: 24px;
   border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+  }
+  .card__face_back {
+    padding-top: 10px;
+  }
 }
